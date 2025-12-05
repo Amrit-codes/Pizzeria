@@ -1,0 +1,16 @@
+.card {
+	border-radius: 10px;
+	box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+}
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+/* Accent colors tuned to the pizza theme */
+.bg-danger { background-color: #e63946 !important; }
+.bg-success { background-color: #2a9d8f !important; }
+.bg-warning { background-color: #f4a261 !important; }
+.bg-info { background-color: #f7b267 !important; }
+
+.card .card-body h4 { font-weight: 700; }

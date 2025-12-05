@@ -1,0 +1,30 @@
+.list-options {
+
+    list-style: none;
+
+
+}
+
+.list-options li .link {
+    text-decoration: none;
+}
+
+.services .nav-link {
+    color: white;
+}
+
+.services .nav-link:hover {
+    color:wheat;
+}
+
+.link-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 10px;
+
+}
+
+.footer-icons {
+    font-size: 30px;
+}

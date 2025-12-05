@@ -1,0 +1,17 @@
+.about-banner{
+    text-align: center;
+    background-color: black;
+}
+
+.about-banner h3{
+
+    margin-top: 10px;
+    text-transform: uppercase;
+
+
+}
+.banner-img img{
+    height: 100%;
+    /* width: 500px; */
+    /* object-fit: cover; */ 
+}

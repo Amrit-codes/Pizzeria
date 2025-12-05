@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.logo-text {
+  text-transform: uppercase;
+}
+
+.logo-text span {
+
+  color: #ffd700;
+}
+
+.cart-img {
+
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid white;
+
+}
+
+.delete_meal:hover {
+  cursor: pointer;
+}
+
+.delete_meal {
+  height: 30px;
+  width: 30px;
+}
+
+.pizza-img {
+  height: 200px;
+  width: 100%;
+
+  /* margin: 0 auto; */
+}
+
+.pizza-details {
+  text-align: center;
+}
+
+.food-speciality {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.food-speciality .headings {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.food-speciality .icons {
+  font-size: 40px;
+}
+
+.service {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("pizzabg.jpg");
+}
+
+.service .service-text {
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.service-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20vw;
+  height: 100%;
+}
+
+.service-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.breadcrumb {
+  font-size: 16px;
+  color: #ccc;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.service-list {
+  height: 500px;
+  background-image: url("yellow bg2.avif");
+
+}
+
+
+
+.icons {
+  border: 1px solid black;
+
+  width: max-content;
+  padding: 20px;
+
+}
+
+.icons:hover {
+
+  color: white;
+  background-color: rgb(236, 177, 67);
+  border: none;
+
+}
+
+.hover-scale {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.15);
+}
+
+.gallery .gallery2 {
+  background-image: url("/cafe sitting.jpeg");
+}
